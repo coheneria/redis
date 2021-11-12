@@ -28,7 +28,8 @@ RUN set -eux; \
 
 ENV REDIS_VERSION=6.2.6
 ENV REDIS_DOWNLOAD_URL=https://download.redis.io/releases/redis-6.2.6.tar.gz
-ENV REDIS_DOWNLOAD_SHA=f3428a23cec52d69af15420afd45cfc857bcd87b9f18e28557bb5816e53cc6c7
+ENV REDIS_DOWNLOAD_SHA=5b2b8b7a50111ef395bf1c1d5be11e6e167ac018125055daa8b5c2317ae131ab
+
 
 RUN set -eux; \
 	\
